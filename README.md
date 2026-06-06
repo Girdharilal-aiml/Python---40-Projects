@@ -9,7 +9,6 @@
 **Girdhari Lal**  
 2nd Year BSAI Student — FAST NUCES Karachi  
 WordPress & AI Developer at [WinTip Labs](https://wintiplabs.me)  
-DecodeLabs Batch 2026
 
 ---
 
