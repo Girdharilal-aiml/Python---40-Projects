@@ -1,6 +1,6 @@
-# 🐍 Python — 40 Projects
+# 🐍 Python — 39 Projects
 
-> A collection of 40 Python GUI & utility projects built with `tkinter` and other libraries, created as part of the DecodeLabs Batch 2026 learning journey.
+> A collection of 39 Python GUI & utility projects built with `tkinter` and other libraries, created as part of the DecodeLabs Batch 2026 learning journey.
 
 ---
 
@@ -15,84 +15,78 @@ DecodeLabs Batch 2026
 
 ## 📦 Requirements
 
-Most projects use only Python's built-in `tkinter` library and run without any installation. Some projects require additional packages:
+Most projects use only Python's built-in `tkinter` library. Some need extra packages:
 
 ```bash
-pip install pillow          # Image processing (projects: 10, 20, 39)
-pip install qrcode pillow   # QR Code generator (project: 3)
-pip install pygame-ce       # Music player (project: 23)
-pip install markdown        # Markdown editor (project: 32)
-pip install mutagen         # Music Organizer Pro (project: 38)
-pip install PyPDF2          # eBook Reader (project: 39)
-pip install pytesseract     # Receipt Scanner OCR (optional, project: 40)
+pip install pillow          # Image Editor (18.py)
+pip install qrcode pillow   # QR Code Generator (11.py)
+pip install pygame-ce       # Music Player (25.py)
+pip install markdown        # Markdown Editor (29.py)
+pip install mutagen         # Music Organizer Pro (38.py)
+pip install PyPDF2          # eBook Reader (39.py)
 ```
 
 ---
 
 ## 🗂️ Project List
 
-| # | Project | Description | Extra Install |
-|---|---------|-------------|---------------|
-| 1 | **Simple Calculator** | Basic GUI calculator with keyboard support | — |
-| 2 | **Coin Flip Simulator** | Fun animated coin flip GUI | — |
-| 3 | **QR Code Generator** | Generate QR codes from text or URLs | `qrcode pillow` |
-| 4 | **Countdown Timer** | Simple & useful timer | — |
-| 5 | **Color Code Generator** | Preview and copy HEX/RGB codes | — |
-| 6 | **Dice Roller** | Multi-dice roller with animations | — |
-| 7 | **Password Generator** | Secure randomized password generator | — |
-| 8 | **Random Quote Display** | Inspirational quotes by category | — |
-| 9 | **Stopwatch with Lap Timer** | Modern stopwatch with lap tracking | — |
-| 10 | **BMI Calculator** | Body Mass Index with health categories | — |
-| 11 | **Unit Converter** | Temperature, length, weight, volume | — |
-| 12 | **Age Calculator** | Exact age with detailed breakdown | — |
-| 13 | **Typing Speed Test** | Test WPM and accuracy | — |
-| 14 | **2048 Game** | Classic sliding tile puzzle | — |
-| 15 | **Budget Calculator** | Track income, expenses, monthly totals | — |
-| 16 | **Language Quiz** | Vocabulary practice across languages | — |
-| 17 | **Note-Taking App** | Clean, functional notes manager | — |
-| 18 | **Pomodoro Timer** | Focus timer with work/break cycles | — |
-| 19 | **Breakout Game** | Classic brick-breaking game | — |
-| 20 | **To-Do List App** | Tasks with priority levels, save to file | — |
-| 21 | **Drawing / Paint App** | Draw with different tools and colors | — |
-| 22 | **Flashcard App** | Decks, study mode, and progress tracking | — |
-| 23 | **Music Player** | Play audio files with playlist & controls | `pygame-ce` |
-| 24 | **Math Quiz Game** | Multiple difficulty levels | — |
-| 25 | **Markdown Editor** | Write markdown with live HTML preview | `markdown` |
-| 26 | **Rock Paper Scissors** | vs Computer with score tracking | — |
-| 27 | **Calendar / Planner** | Monthly calendar with event management | — |
-| 28 | **Memory Card Game** | Flip and match pairs | — |
-| 29 | **Pong Game** | Classic 2-player game with AI opponent | — |
-| 30 | **Snake Game** | Classic snake with score & speed increase | — |
-| 31 | **File Search Tool** | Search files with filters and preview | — |
-| 32 | **Physics Simulator** | Lightweight particle physics (click & drag) | — |
-| 33 | **Tic-Tac-Toe with AI** | Play vs computer using Minimax algorithm | — |
-| 34 | **Image Editor** | Crop, rotate, filters, brightness, contrast | `pillow` |
-| 35 | **QuestBoard Studio** | Task manager with XP, levels, streaks | — |
-| 36 | **Contact Manager** | Manage contacts with vCard export | — |
-| 37 | **NovaPad Code Editor** | Multi-tab editor with syntax highlighting | — |
-| 38 | **Music Organizer Pro** | Library manager with ratings & mood tags | `mutagen` |
-| 39 | **eBook Reader** | Read TXT/PDF with bookmarks and TOC | `PyPDF2` |
-| 40 | **Receipt Scanner** | Upload receipt images, extract text (OCR) | `pillow pytesseract` |
+| File | Project | Extra Install |
+|------|---------|---------------|
+| 1.py | **Physics Simulator** — Click & drag particles, gravity controls | — |
+| 2.py | **To-Do List App** — Priority levels, search, auto-save to file | — |
+| 3.py | **Rock Paper Scissors** — vs Computer, score tracking, best of 5 | — |
+| 4.py | **Simple Calculator** — Basic operations, keyboard support | — |
+| 5.py | **Coin Flip Simulator** — Animated GUI | — |
+| 6.py | **Countdown Timer** — Simple & useful | — |
+| 7.py | **Color Code Generator** — Preview HEX/RGB codes | — |
+| 8.py | **Dice Roller** — Multi-dice with animations | — |
+| 9.py | **Password Generator** — Secure, customizable | — |
+| 10.py | **Random Quote Display** — Inspirational quotes by category | — |
+| 11.py | **QR Code Generator** — Generate QR from text/URLs | `qrcode pillow` |
+| 12.py | **Stopwatch + Lap Timer** — Modern UI | — |
+| 13.py | **BMI Calculator** — Health categories | — |
+| 14.py | **Unit Converter** — Temperature, length, weight, volume | — |
+| 15.py | **Age Calculator** — Exact age with detailed breakdown | — |
+| 16.py | **Typing Speed Test** — WPM and accuracy | — |
+| 17.py | **2048 Game** — Classic sliding tile puzzle | — |
+| 18.py | **Image Editor** — Crop, rotate, filters, brightness/contrast | `pillow` |
+| 19.py | **Tic-Tac-Toe with AI** — Minimax algorithm | — |
+| 20.py | **Budget Calculator** — Track income, expenses, monthly totals | — |
+| 21.py | **Language Quiz** — Vocabulary across multiple languages | — |
+| 22.py | **Note-Taking App** — Clean, functional notes manager | — |
+| 23.py | **Pomodoro Timer** — Work/break cycles | — |
+| 24.py | **Breakout Game** — Classic brick-breaking | — |
+| 25.py | **Music Player** — Playlist, controls, audio playback | `pygame-ce` |
+| 26.py | **Drawing / Paint App** — Tools and color picker | — |
+| 27.py | **Flashcard App** — Decks, study mode, progress tracking | — |
+| 28.py | **Math Quiz Game** — Multiple difficulty levels | — |
+| 29.py | **Markdown Editor** — Live HTML preview | `markdown` |
+| 30.py | **Calendar / Planner** — Monthly calendar with event management | — |
+| 31.py | **Memory Card Game** — Flip and match pairs | — |
+| 32.py | **Pong Game** — 2-player with AI opponent | — |
+| 33.py | **Snake Game** — Classic snake, score & speed increase | — |
+| 34.py | **File Search Tool** — Search with filters and preview | — |
+| 35.py | **QuestBoard Studio** — Tasks as quests, XP, levels, streaks | — |
+| 36.py | **Contact Manager** — Search, manage, vCard export | — |
+| 37.py | **NovaPad Code Editor** — Multi-tab, syntax highlight, run Python | — |
+| 38.py | **Music Organizer Pro** — Ratings, mood tags, play history, M3U export | `mutagen` |
+| 39.py | **eBook Reader** — TXT/PDF with bookmarks and TOC | `PyPDF2` |
 
 ---
 
 ## 🚀 How to Run
 
 ```bash
-# Clone the repo
 git clone https://github.com/Girdharilal-aiml/Python.git
 cd Python
-
-# Run any project
-python 1.py     # Simple Calculator
-python 35.py    # QuestBoard Studio
-python 37.py    # NovaPad Code Editor
-# ...and so on
+python 1.py    # Physics Simulator
+python 37.py   # NovaPad Code Editor
+python 35.py   # QuestBoard Studio
 ```
 
 ---
 
-## 🎮 Controls (Physics Simulator — 32.py)
+## 🎮 Controls — Physics Simulator (1.py)
 
 | Key | Action |
 |-----|--------|
@@ -105,19 +99,6 @@ python 37.py    # NovaPad Code Editor
 
 ---
 
-## 📁 Repo Structure
-
-```
-Python/
-├── 1.py   → Simple Calculator
-├── 2.py   → Coin Flip Simulator
-├── ...
-├── 39.py  → eBook Reader
-└── 40.py  → Receipt Scanner
-```
-
----
-
 ## 🏷️ Tags
 
 `python` `tkinter` `gui` `beginner` `games` `tools` `utilities` `ai` `decodelabs` `nuces` `karachi`
@@ -126,5 +107,4 @@ Python/
 
 ## 📄 License
 
-This repository is for educational and portfolio purposes.  
-Feel free to explore, fork, and learn from the code.
+For educational and portfolio purposes. Feel free to explore and learn from the code.
