@@ -7,3 +7,4 @@ Optional OCR engine: Tesseract-OCR installed on system
 """
 
 import tkinter as tk
+from tkinter import filedialog, messagebox, scrolledtext
