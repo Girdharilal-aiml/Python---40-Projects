@@ -6,3 +6,4 @@ Optional: pip install pillow pytesseract
 Optional OCR engine: Tesseract-OCR installed on system
 """
 
+import tkinter as tk
