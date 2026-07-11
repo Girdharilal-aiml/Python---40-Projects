@@ -29,4 +29,5 @@ except ImportError:
 
 class ReceiptScanner:
     def __init__(self, root):
+        self.root = root
 
