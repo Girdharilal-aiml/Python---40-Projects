@@ -21,6 +21,7 @@ except ImportError:
     PIL_AVAILABLE = False
 
 try:
+    import pytesseract
 except ImportError:
 
 
