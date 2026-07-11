@@ -38,3 +38,4 @@ class ReceiptScanner:
 
         # Data
         self.receipts_file = "receipts.json"
+        self.receipts = []
