@@ -31,4 +31,5 @@ class ReceiptScanner:
     def __init__(self, root):
         self.root = root
         self.root.title("Receipt Scanner")
+        self.root.geometry("1100x700")
 
