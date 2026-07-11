@@ -34,4 +34,5 @@ class ReceiptScanner:
         self.root.geometry("1100x700")
         self.root.configure(bg='white')
         self.root.resizable(True, True)
+        self.root.minsize(900, 600)
 
