@@ -20,5 +20,7 @@ except ImportError:
     ImageTk = None
     PIL_AVAILABLE = False
 
+try:
+except ImportError:
 
 
