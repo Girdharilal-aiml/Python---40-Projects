@@ -18,6 +18,7 @@ try:
 except ImportError:
     Image = None
     ImageTk = None
+    PIL_AVAILABLE = False
 
 
 
