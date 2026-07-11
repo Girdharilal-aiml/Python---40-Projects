@@ -27,4 +27,5 @@ except ImportError:
     pytesseract = None
     TESSERACT_AVAILABLE = False
 
+class ReceiptScanner:
 
