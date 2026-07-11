@@ -22,6 +22,7 @@ except ImportError:
 
 try:
     import pytesseract
+    TESSERACT_AVAILABLE = True
 except ImportError:
 
 
