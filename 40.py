@@ -13,6 +13,7 @@ import os
 from datetime import datetime
 
 try:
+    from PIL import Image, ImageTk
 except ImportError:
 
 
