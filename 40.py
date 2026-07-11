@@ -16,6 +16,7 @@ try:
     from PIL import Image, ImageTk
     PIL_AVAILABLE = True
 except ImportError:
+    Image = None
 
 
 
