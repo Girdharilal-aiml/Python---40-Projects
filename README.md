@@ -1,6 +1,6 @@
-# 🐍 Python — 39 Projects
+# 🐍 Python — 40 Projects
 
-> A collection of 39 Python GUI & utility projects built with `tkinter` and other libraries, created as part of the DecodeLabs Batch 2026 learning journey.
+> 40 Python GUI & utility projects built with `tkinter` and other libraries.
 
 ---
 
@@ -8,13 +8,13 @@
 
 **Girdhari Lal**  
 2nd Year BSAI Student — FAST NUCES Karachi  
-WordPress & AI Developer at [WinTip Labs](https://wintiplabs.me)  
+AI & Web Developer at [WinTip Labs](https://wintiplabs.me)
 
 ---
 
 ## 📦 Requirements
 
-Most projects use only Python's built-in `tkinter` library. Some need extra packages:
+Most projects run with Python's built-in `tkinter` — no install needed. A few need extras:
 
 ```bash
 pip install pillow          # Image Editor (18.py)
@@ -23,6 +23,7 @@ pip install pygame-ce       # Music Player (25.py)
 pip install markdown        # Markdown Editor (29.py)
 pip install mutagen         # Music Organizer Pro (38.py)
 pip install PyPDF2          # eBook Reader (39.py)
+pip install pillow pytesseract  # Receipt Scanner (40.py, optional)
 ```
 
 ---
@@ -32,7 +33,7 @@ pip install PyPDF2          # eBook Reader (39.py)
 | File | Project | Extra Install |
 |------|---------|---------------|
 | 1.py | **Physics Simulator** — Click & drag particles, gravity controls | — |
-| 2.py | **To-Do List App** — Priority levels, search, auto-save to file | — |
+| 2.py | **To-Do List App** — Priority levels, search, auto-save | — |
 | 3.py | **Rock Paper Scissors** — vs Computer, score tracking, best of 5 | — |
 | 4.py | **Simple Calculator** — Basic operations, keyboard support | — |
 | 5.py | **Coin Flip Simulator** — Animated GUI | — |
@@ -70,14 +71,15 @@ pip install PyPDF2          # eBook Reader (39.py)
 | 37.py | **NovaPad Code Editor** — Multi-tab, syntax highlight, run Python | — |
 | 38.py | **Music Organizer Pro** — Ratings, mood tags, play history, M3U export | `mutagen` |
 | 39.py | **eBook Reader** — TXT/PDF with bookmarks and TOC | `PyPDF2` |
+| 40.py | **Receipt Scanner** — Upload images, extract text via OCR | `pillow pytesseract` (optional) |
 
 ---
 
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/Girdharilal-aiml/Python.git
-cd Python
+git clone https://github.com/Girdharilal-aiml/Python---39-Projects.git
+cd Python---39-Projects
 python 1.py    # Physics Simulator
 python 37.py   # NovaPad Code Editor
 python 35.py   # QuestBoard Studio
@@ -100,7 +102,7 @@ python 35.py   # QuestBoard Studio
 
 ## 🏷️ Tags
 
-`python` `tkinter` `gui` `beginner` `games` `tools` `utilities` `ai` `decodelabs` `nuces` `karachi`
+`python` `tkinter` `gui` `beginner` `games` `tools` `utilities`
 
 ---
 
