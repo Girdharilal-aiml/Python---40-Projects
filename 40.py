@@ -32,4 +32,5 @@ class ReceiptScanner:
         self.root = root
         self.root.title("Receipt Scanner")
         self.root.geometry("1100x700")
+        self.root.configure(bg='white')
 
