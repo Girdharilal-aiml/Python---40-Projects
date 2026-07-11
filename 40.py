@@ -25,5 +25,6 @@ try:
     TESSERACT_AVAILABLE = True
 except ImportError:
     pytesseract = None
+    TESSERACT_AVAILABLE = False
 
 
