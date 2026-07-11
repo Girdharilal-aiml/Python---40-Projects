@@ -28,4 +28,5 @@ except ImportError:
     TESSERACT_AVAILABLE = False
 
 class ReceiptScanner:
+    def __init__(self, root):
 
