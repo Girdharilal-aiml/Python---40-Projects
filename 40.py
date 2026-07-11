@@ -24,5 +24,6 @@ try:
     import pytesseract
     TESSERACT_AVAILABLE = True
 except ImportError:
+    pytesseract = None
 
 
