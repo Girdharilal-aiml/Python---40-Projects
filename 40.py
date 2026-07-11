@@ -36,3 +36,5 @@ class ReceiptScanner:
         self.root.resizable(True, True)
         self.root.minsize(900, 600)
 
+        # Data
+        self.receipts_file = "receipts.json"
