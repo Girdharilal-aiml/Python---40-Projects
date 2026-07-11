@@ -40,3 +40,5 @@ class ReceiptScanner:
         self.receipts_file = "receipts.json"
         self.receipts = []
         self.current_receipt = None
+        self.load_receipts()
+
