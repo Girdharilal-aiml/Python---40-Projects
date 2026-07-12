@@ -55,6 +55,8 @@ class ReceiptScanner:
             fg='white'
         ).pack(pady=18)
 
+        # Main container
+        main_container = tk.Frame(root, bg='white')
 
 
 
