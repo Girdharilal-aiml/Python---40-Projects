@@ -73,6 +73,8 @@ class ReceiptScanner:
             fg='#333'
         ).pack(pady=15)
 
+        # Search
+        search_frame = tk.Frame(sidebar, bg='#f5f5f5')
 
 
 
