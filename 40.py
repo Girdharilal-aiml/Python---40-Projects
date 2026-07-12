@@ -47,6 +47,8 @@ class ReceiptScanner:
         header.pack(fill=tk.X)
         header.pack_propagate(False)
 
+        tk.Label(
+            header,
 
 
 
