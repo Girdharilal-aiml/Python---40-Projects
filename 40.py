@@ -68,6 +68,7 @@ class ReceiptScanner:
         tk.Label(
             sidebar,
             text="Receipts",
+            font=('Arial', 14, 'bold'),
 
 
 
