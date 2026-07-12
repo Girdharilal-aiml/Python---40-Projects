@@ -77,5 +77,6 @@ class ReceiptScanner:
         search_frame = tk.Frame(sidebar, bg='#f5f5f5')
         search_frame.pack(fill=tk.X, padx=10, pady=(0, 10))
 
+        self.search_var = tk.StringVar()
 
 
