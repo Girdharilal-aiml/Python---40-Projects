@@ -44,6 +44,7 @@ class ReceiptScanner:
 
         # Header
         header = tk.Frame(root, bg='#FF9800', height=70)
+        header.pack(fill=tk.X)
 
 
 
