@@ -64,6 +64,8 @@ class ReceiptScanner:
         sidebar.pack(side=tk.LEFT, fill=tk.Y)
         sidebar.pack_propagate(False)
 
+        # Sidebar header
+        tk.Label(
 
 
 
