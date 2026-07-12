@@ -50,6 +50,7 @@ class ReceiptScanner:
         tk.Label(
             header,
             text="🧾 Receipt Scanner",
+            font=('Arial', 24, 'bold'),
 
 
 
