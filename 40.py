@@ -84,4 +84,5 @@ class ReceiptScanner:
             search_frame,
             textvariable=self.search_var,
             font=('Arial', 10),
+            bg='white',
 
