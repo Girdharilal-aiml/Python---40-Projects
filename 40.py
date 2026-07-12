@@ -80,4 +80,5 @@ class ReceiptScanner:
         self.search_var = tk.StringVar()
         self.search_var.trace_add('write', lambda *args: self.filter_receipts())
 
+        tk.Entry(
 
