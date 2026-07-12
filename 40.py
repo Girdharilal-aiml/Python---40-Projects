@@ -59,6 +59,8 @@ class ReceiptScanner:
         main_container = tk.Frame(root, bg='white')
         main_container.pack(fill=tk.BOTH, expand=True)
 
+        # Left sidebar - Receipt list
+        sidebar = tk.Frame(main_container, bg='#f5f5f5', width=250, relief=tk.SOLID, bd=1)
 
 
 
