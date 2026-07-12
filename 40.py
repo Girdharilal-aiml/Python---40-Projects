@@ -81,4 +81,5 @@ class ReceiptScanner:
         self.search_var.trace_add('write', lambda *args: self.filter_receipts())
 
         tk.Entry(
+            search_frame,
 
