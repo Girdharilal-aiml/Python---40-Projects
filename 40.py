@@ -42,3 +42,13 @@ class ReceiptScanner:
         self.current_receipt = None
         self.load_receipts()
 
+        # Header
+        header = tk.Frame(root, bg='#FF9800', height=70)
+
+
+
+
+
+
+
+
