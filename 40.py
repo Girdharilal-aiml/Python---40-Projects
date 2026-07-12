@@ -57,6 +57,7 @@ class ReceiptScanner:
 
         # Main container
         main_container = tk.Frame(root, bg='white')
+        main_container.pack(fill=tk.BOTH, expand=True)
 
 
 
