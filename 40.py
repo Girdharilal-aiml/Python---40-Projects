@@ -66,6 +66,7 @@ class ReceiptScanner:
 
         # Sidebar header
         tk.Label(
+            sidebar,
 
 
 
