@@ -51,6 +51,7 @@ class ReceiptScanner:
             header,
             text="🧾 Receipt Scanner",
             font=('Arial', 24, 'bold'),
+            bg='#FF9800',
 
 
 
