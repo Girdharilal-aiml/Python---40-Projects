@@ -82,4 +82,5 @@ class ReceiptScanner:
 
         tk.Entry(
             search_frame,
+            textvariable=self.search_var,
 
