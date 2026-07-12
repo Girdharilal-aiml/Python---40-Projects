@@ -70,6 +70,7 @@ class ReceiptScanner:
             text="Receipts",
             font=('Arial', 14, 'bold'),
             bg='#f5f5f5',
+            fg='#333'
 
 
 
