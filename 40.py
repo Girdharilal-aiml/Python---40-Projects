@@ -121,4 +121,5 @@ class ReceiptScanner:
             bg='#4CAF50',
             fg='white',
             bd=0,
+            cursor='hand2',
 
