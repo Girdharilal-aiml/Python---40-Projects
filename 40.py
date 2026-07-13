@@ -99,6 +99,7 @@ class ReceiptScanner:
 
         self.receipts_listbox = tk.Listbox(
             list_frame,
+            font=('Arial', 10),
         )
 
 
