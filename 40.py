@@ -120,4 +120,5 @@ class ReceiptScanner:
             font=('Arial', 10, 'bold'),
             bg='#4CAF50',
             fg='white',
+            bd=0,
 
