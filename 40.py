@@ -101,6 +101,7 @@ class ReceiptScanner:
             list_frame,
             font=('Arial', 10),
             bg='white',
+            fg='#333',
         )
 
 
