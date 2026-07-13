@@ -106,6 +106,7 @@ class ReceiptScanner:
             selectforeground='white',
             bd=1,
             relief=tk.SOLID,
+            yscrollcommand=scroll.set
         )
 
 
