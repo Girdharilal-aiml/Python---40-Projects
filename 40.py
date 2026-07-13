@@ -92,6 +92,7 @@ class ReceiptScanner:
 
         # Receipt list
         list_frame = tk.Frame(sidebar, bg='#f5f5f5')
+        list_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=(0, 10))
 
 
 
