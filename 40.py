@@ -118,4 +118,5 @@ class ReceiptScanner:
             text="📷 Scan Receipt",
             command=self.scan_receipt,
             font=('Arial', 10, 'bold'),
+            bg='#4CAF50',
 
