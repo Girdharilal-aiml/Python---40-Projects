@@ -117,4 +117,5 @@ class ReceiptScanner:
             sidebar,
             text="📷 Scan Receipt",
             command=self.scan_receipt,
+            font=('Arial', 10, 'bold'),
 
