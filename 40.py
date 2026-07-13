@@ -105,6 +105,7 @@ class ReceiptScanner:
             selectbackground='#FF9800',
             selectforeground='white',
             bd=1,
+            relief=tk.SOLID,
         )
 
 
