@@ -98,6 +98,7 @@ class ReceiptScanner:
         scroll.pack(side=tk.RIGHT, fill=tk.Y)
 
         self.receipts_listbox = tk.Listbox(
+            list_frame,
         )
 
 
