@@ -104,6 +104,7 @@ class ReceiptScanner:
             fg='#333',
             selectbackground='#FF9800',
             selectforeground='white',
+            bd=1,
         )
 
 
