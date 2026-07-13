@@ -108,5 +108,6 @@ class ReceiptScanner:
             relief=tk.SOLID,
             yscrollcommand=scroll.set
         )
+        self.receipts_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
 
