@@ -115,4 +115,5 @@ class ReceiptScanner:
         # Buttons
         tk.Button(
             sidebar,
+            text="📷 Scan Receipt",
 
