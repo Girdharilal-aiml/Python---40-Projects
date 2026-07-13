@@ -116,4 +116,5 @@ class ReceiptScanner:
         tk.Button(
             sidebar,
             text="📷 Scan Receipt",
+            command=self.scan_receipt,
 
