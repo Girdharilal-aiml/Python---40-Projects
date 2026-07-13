@@ -88,6 +88,7 @@ class ReceiptScanner:
             fg='#333',
             relief=tk.SOLID,
             bd=1
+        ).pack(fill=tk.X, ipady=5)
 
 
 
