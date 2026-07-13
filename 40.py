@@ -110,5 +110,6 @@ class ReceiptScanner:
         )
         self.receipts_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         scroll.config(command=self.receipts_listbox.yview)
+        self.receipts_listbox.bind('<<ListboxSelect>>', self.select_receipt)
 
 
