@@ -95,6 +95,7 @@ class ReceiptScanner:
         list_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=(0, 10))
 
         scroll = tk.Scrollbar(list_frame)
+        scroll.pack(side=tk.RIGHT, fill=tk.Y)
 
 
 
