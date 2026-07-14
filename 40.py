@@ -127,6 +127,7 @@ class ReceiptScanner:
 
         tk.Button(
             sidebar,
+            text="🗑️ Delete",
         ).pack(fill=tk.X, padx=10, pady=2)
 
 
