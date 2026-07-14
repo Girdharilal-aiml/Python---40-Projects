@@ -126,6 +126,7 @@ class ReceiptScanner:
         ).pack(fill=tk.X, padx=10, pady=2)
 
         tk.Button(
+            sidebar,
         ).pack(fill=tk.X, padx=10, pady=2)
 
 
