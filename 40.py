@@ -143,6 +143,7 @@ class ReceiptScanner:
 
         tk.Label(
             center_frame,
+            text="Receipt Image",
         ).pack(pady=(0, 10))
 
 
