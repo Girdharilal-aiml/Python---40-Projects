@@ -157,4 +157,5 @@ class ReceiptScanner:
             bd=1,
             highlightthickness=0
         )
+        self.image_canvas.pack(fill=tk.BOTH, expand=True)
 
