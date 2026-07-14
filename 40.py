@@ -159,3 +159,5 @@ class ReceiptScanner:
         )
         self.image_canvas.pack(fill=tk.BOTH, expand=True)
 
+        # Right side - Details
+        details_frame = tk.Frame(main_container, bg='#f5f5f5', width=350, relief=tk.SOLID, bd=1)
