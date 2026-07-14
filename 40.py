@@ -123,4 +123,8 @@ class ReceiptScanner:
             bd=0,
             cursor='hand2',
             pady=8
+        ).pack(fill=tk.X, padx=10, pady=2)
+
+
+
 
