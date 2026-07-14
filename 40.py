@@ -149,4 +149,7 @@ class ReceiptScanner:
             fg='#333'
         ).pack(pady=(0, 10))
 
+        # Image canvas
+        self.image_canvas = tk.Canvas(
+        )
 
