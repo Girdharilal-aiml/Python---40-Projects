@@ -161,3 +161,4 @@ class ReceiptScanner:
 
         # Right side - Details
         details_frame = tk.Frame(main_container, bg='#f5f5f5', width=350, relief=tk.SOLID, bd=1)
+        details_frame.pack(side=tk.RIGHT, fill=tk.Y)
