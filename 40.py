@@ -153,6 +153,7 @@ class ReceiptScanner:
         self.image_canvas = tk.Canvas(
             center_frame,
             bg='#f5f5f5',
+            relief=tk.SOLID,
             bd=1,
         )
 
