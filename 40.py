@@ -130,6 +130,7 @@ class ReceiptScanner:
             text="🗑️ Delete",
             command=self.delete_receipt,
             font=('Arial', 10, 'bold'),
+            bg='#f44336',
         ).pack(fill=tk.X, padx=10, pady=2)
 
 
