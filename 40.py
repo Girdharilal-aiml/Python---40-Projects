@@ -133,6 +133,7 @@ class ReceiptScanner:
             bg='#f44336',
             fg='white',
             bd=0,
+            cursor='hand2',
         ).pack(fill=tk.X, padx=10, pady=2)
 
 
