@@ -145,6 +145,7 @@ class ReceiptScanner:
             center_frame,
             text="Receipt Image",
             font=('Arial', 12, 'bold'),
+            bg='white',
         ).pack(pady=(0, 10))
 
 
