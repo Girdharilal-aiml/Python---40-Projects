@@ -146,6 +146,7 @@ class ReceiptScanner:
             text="Receipt Image",
             font=('Arial', 12, 'bold'),
             bg='white',
+            fg='#333'
         ).pack(pady=(0, 10))
 
 
