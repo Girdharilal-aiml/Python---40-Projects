@@ -139,6 +139,7 @@ class ReceiptScanner:
 
         # Center - Image preview
         center_frame = tk.Frame(main_container, bg='white')
+        center_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=10, pady=10)
 
 
 
