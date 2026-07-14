@@ -144,6 +144,7 @@ class ReceiptScanner:
         tk.Label(
             center_frame,
             text="Receipt Image",
+            font=('Arial', 12, 'bold'),
         ).pack(pady=(0, 10))
 
 
