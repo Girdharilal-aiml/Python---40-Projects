@@ -129,6 +129,7 @@ class ReceiptScanner:
             sidebar,
             text="🗑️ Delete",
             command=self.delete_receipt,
+            font=('Arial', 10, 'bold'),
         ).pack(fill=tk.X, padx=10, pady=2)
 
 
