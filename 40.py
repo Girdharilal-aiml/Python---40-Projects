@@ -165,6 +165,7 @@ class ReceiptScanner:
         details_frame.pack_propagate(False)
 
         tk.Label(
+            details_frame,
         ).pack(pady=15)
 
 
