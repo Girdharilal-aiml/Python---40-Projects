@@ -174,5 +174,6 @@ class ReceiptScanner:
 
         # Form fields
         form_container = tk.Frame(details_frame, bg='#f5f5f5')
+        form_container.pack(fill=tk.BOTH, expand=True, padx=10)
 
 
