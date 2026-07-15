@@ -168,6 +168,7 @@ class ReceiptScanner:
             details_frame,
             text="Receipt Details",
             font=('Arial', 12, 'bold'),
+            bg='#f5f5f5',
         ).pack(pady=15)
 
 
