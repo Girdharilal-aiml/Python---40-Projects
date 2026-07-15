@@ -179,5 +179,6 @@ class ReceiptScanner:
         # Store
         tk.Label(
             form_container,
+            text="Store:",
         ).pack(fill=tk.X, pady=(0, 2))
 
