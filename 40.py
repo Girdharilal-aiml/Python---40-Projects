@@ -172,5 +172,7 @@ class ReceiptScanner:
             fg='#333'
         ).pack(pady=15)
 
+        # Form fields
+        form_container = tk.Frame(details_frame, bg='#f5f5f5')
 
 
