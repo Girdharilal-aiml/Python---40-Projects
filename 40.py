@@ -166,6 +166,7 @@ class ReceiptScanner:
 
         tk.Label(
             details_frame,
+            text="Receipt Details",
         ).pack(pady=15)
 
 
