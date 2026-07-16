@@ -219,6 +219,7 @@ class ReceiptScanner:
         # Amount
         tk.Label(
             form_container,
+            text="Total Amount:",
         ).pack(fill=tk.X, pady=(0, 2))
 
 
