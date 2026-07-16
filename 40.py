@@ -214,6 +214,7 @@ class ReceiptScanner:
             relief=tk.SOLID,
             bd=1
         )
+        self.date_entry.pack(fill=tk.X, ipady=5, pady=(0, 10))
 
 
 
