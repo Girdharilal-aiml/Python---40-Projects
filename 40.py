@@ -226,4 +226,6 @@ class ReceiptScanner:
             anchor='w'
         ).pack(fill=tk.X, pady=(0, 2))
 
+        self.amount_entry = tk.Entry(
+        )
 
