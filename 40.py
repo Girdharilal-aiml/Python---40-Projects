@@ -206,6 +206,8 @@ class ReceiptScanner:
             anchor='w'
         ).pack(fill=tk.X, pady=(0, 2))
 
+        self.date_entry = tk.Entry(
+        )
 
 
 
