@@ -195,3 +195,11 @@ class ReceiptScanner:
             bd=1
         )
         self.store_entry.pack(fill=tk.X, ipady=5, pady=(0, 10))
+
+        # Date
+        tk.Label(
+        ).pack(fill=tk.X, pady=(0, 2))
+
+
+
+
