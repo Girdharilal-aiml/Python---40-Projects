@@ -227,5 +227,6 @@ class ReceiptScanner:
         ).pack(fill=tk.X, pady=(0, 2))
 
         self.amount_entry = tk.Entry(
+            form_container,
         )
 
