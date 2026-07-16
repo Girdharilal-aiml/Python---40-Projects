@@ -200,6 +200,7 @@ class ReceiptScanner:
         tk.Label(
             form_container,
             text="Date:",
+            font=('Arial', 10, 'bold'),
         ).pack(fill=tk.X, pady=(0, 2))
 
 
