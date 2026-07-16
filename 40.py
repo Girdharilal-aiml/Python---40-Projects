@@ -199,6 +199,7 @@ class ReceiptScanner:
         # Date
         tk.Label(
             form_container,
+            text="Date:",
         ).pack(fill=tk.X, pady=(0, 2))
 
 
