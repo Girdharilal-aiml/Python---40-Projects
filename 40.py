@@ -209,6 +209,7 @@ class ReceiptScanner:
         self.date_entry = tk.Entry(
             form_container,
             font=('Arial', 10),
+            bg='white',
         )
 
 
