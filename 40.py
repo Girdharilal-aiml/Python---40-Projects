@@ -216,5 +216,8 @@ class ReceiptScanner:
         )
         self.date_entry.pack(fill=tk.X, ipady=5, pady=(0, 10))
 
+        # Amount
+        tk.Label(
+        ).pack(fill=tk.X, pady=(0, 2))
 
 
