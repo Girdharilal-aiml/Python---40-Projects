@@ -230,5 +230,6 @@ class ReceiptScanner:
             form_container,
             font=('Arial', 10),
             bg='white',
+            fg='#333',
         )
 
