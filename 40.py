@@ -270,3 +270,5 @@ class ReceiptScanner:
             anchor='w'
         ).pack(fill=tk.X, pady=(0, 2))
 
+        self.notes_text = tk.Text(
+        )
