@@ -315,4 +315,5 @@ class ReceiptScanner:
             details_frame,
             text="💾 Save Receipt",
             command=self.save_receipt,
+            font=('Arial', 11, 'bold'),
         ).pack(pady=15)
