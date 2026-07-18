@@ -247,6 +247,7 @@ class ReceiptScanner:
         ).pack(fill=tk.X, pady=(0, 2))
 
         categories = ['Food', 'Shopping', 'Transport', 'Entertainment', 'Bills', 'Other']
+        self.category_var = tk.StringVar(value='Other')
         
 
 
