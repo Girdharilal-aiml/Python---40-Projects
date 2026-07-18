@@ -250,5 +250,7 @@ class ReceiptScanner:
         self.category_var = tk.StringVar(value='Other')
         
         category_menu = tk.OptionMenu(form_container, self.category_var, *categories)
+        category_menu.config(
+        )
 
 
