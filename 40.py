@@ -303,5 +303,6 @@ class ReceiptScanner:
             relief=tk.SOLID,
             bd=1,
             height=8,
+            wrap=tk.WORD,
         )
 
