@@ -265,5 +265,6 @@ class ReceiptScanner:
             form_container,
             text="Notes:",
             font=('Arial', 10, 'bold'),
+            bg='#f5f5f5',
         ).pack(fill=tk.X, pady=(0, 2))
 
