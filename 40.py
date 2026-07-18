@@ -264,5 +264,6 @@ class ReceiptScanner:
         tk.Label(
             form_container,
             text="Notes:",
+            font=('Arial', 10, 'bold'),
         ).pack(fill=tk.X, pady=(0, 2))
 
