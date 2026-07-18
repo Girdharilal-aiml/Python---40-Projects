@@ -308,4 +308,5 @@ class ReceiptScanner:
             state='disabled'
         )
         self.ocr_text.pack(fill=tk.BOTH, expand=True)
+        ocr_scroll.config(command=self.ocr_text.yview)
 
