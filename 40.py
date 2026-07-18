@@ -307,4 +307,5 @@ class ReceiptScanner:
             yscrollcommand=ocr_scroll.set,
             state='disabled'
         )
+        self.ocr_text.pack(fill=tk.BOTH, expand=True)
 
