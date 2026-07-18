@@ -312,4 +312,5 @@ class ReceiptScanner:
 
         # Save button
         tk.Button(
+            details_frame,
         ).pack(pady=15)
