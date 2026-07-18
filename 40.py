@@ -282,6 +282,9 @@ class ReceiptScanner:
         )
         self.notes_text.pack(fill=tk.X, pady=(0, 10))
 
+        # OCR Text
+        tk.Label(
+        ).pack(fill=tk.X, pady=(10, 2))
 
 
 
