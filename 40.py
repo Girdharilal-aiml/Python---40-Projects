@@ -280,6 +280,7 @@ class ReceiptScanner:
             height=4,
             wrap=tk.WORD
         )
+        self.notes_text.pack(fill=tk.X, pady=(0, 10))
 
 
 
