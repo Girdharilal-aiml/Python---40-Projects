@@ -255,6 +255,7 @@ class ReceiptScanner:
             bg='white',
             fg='#333',
             bd=1,
+            relief=tk.SOLID,
         )
 
 
