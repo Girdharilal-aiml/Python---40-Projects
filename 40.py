@@ -292,5 +292,6 @@ class ReceiptScanner:
             anchor='w'
         ).pack(fill=tk.X, pady=(10, 2))
 
+        ocr_scroll = tk.Scrollbar(form_container)
 
 
