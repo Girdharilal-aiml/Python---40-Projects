@@ -288,6 +288,7 @@ class ReceiptScanner:
             text="Extracted Text:",
             font=('Arial', 10, 'bold'),
             bg='#f5f5f5',
+            fg='#333',
         ).pack(fill=tk.X, pady=(10, 2))
 
 
