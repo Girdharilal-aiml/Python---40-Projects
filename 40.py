@@ -258,5 +258,6 @@ class ReceiptScanner:
             relief=tk.SOLID,
             cursor='hand2'
         )
+        category_menu.pack(fill=tk.X, pady=(0, 10))
 
 
