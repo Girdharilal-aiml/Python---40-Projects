@@ -289,6 +289,7 @@ class ReceiptScanner:
             font=('Arial', 10, 'bold'),
             bg='#f5f5f5',
             fg='#333',
+            anchor='w'
         ).pack(fill=tk.X, pady=(10, 2))
 
 
