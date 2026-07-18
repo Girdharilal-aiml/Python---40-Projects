@@ -238,6 +238,7 @@ class ReceiptScanner:
 
         # Category
         tk.Label(
+            form_container,
         ).pack(fill=tk.X, pady=(0, 2))
 
         
