@@ -300,5 +300,6 @@ class ReceiptScanner:
             font=('Consolas', 8),
             bg='#f9f9f9',
             fg='#333',
+            relief=tk.SOLID,
         )
 
