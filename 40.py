@@ -284,6 +284,7 @@ class ReceiptScanner:
 
         # OCR Text
         tk.Label(
+            form_container,
         ).pack(fill=tk.X, pady=(10, 2))
 
 
