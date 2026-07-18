@@ -277,4 +277,9 @@ class ReceiptScanner:
             fg='#333',
             relief=tk.SOLID,
             bd=1,
+            height=4,
         )
+
+
+
+
