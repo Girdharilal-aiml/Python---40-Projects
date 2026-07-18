@@ -304,5 +304,6 @@ class ReceiptScanner:
             bd=1,
             height=8,
             wrap=tk.WORD,
+            yscrollcommand=ocr_scroll.set,
         )
 
