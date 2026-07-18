@@ -236,3 +236,10 @@ class ReceiptScanner:
         )
         self.amount_entry.pack(fill=tk.X, ipady=5, pady=(0, 10))
 
+        # Category
+        tk.Label(
+        ).pack(fill=tk.X, pady=(0, 2))
+
+        
+
+
