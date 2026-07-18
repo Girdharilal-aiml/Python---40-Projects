@@ -295,4 +295,6 @@ class ReceiptScanner:
         ocr_scroll = tk.Scrollbar(form_container)
         ocr_scroll.pack(side=tk.RIGHT, fill=tk.Y)
 
+        self.ocr_text = tk.Text(
+        )
 
