@@ -253,6 +253,7 @@ class ReceiptScanner:
         category_menu.config(
             font=('Arial', 10),
             bg='white',
+            fg='#333',
         )
 
 
