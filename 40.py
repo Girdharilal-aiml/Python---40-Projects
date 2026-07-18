@@ -260,4 +260,7 @@ class ReceiptScanner:
         )
         category_menu.pack(fill=tk.X, pady=(0, 10))
 
+        # Notes
+        tk.Label(
+        ).pack(fill=tk.X, pady=(0, 2))
 
