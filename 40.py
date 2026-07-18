@@ -297,5 +297,6 @@ class ReceiptScanner:
 
         self.ocr_text = tk.Text(
             form_container,
+            font=('Consolas', 8),
         )
 
