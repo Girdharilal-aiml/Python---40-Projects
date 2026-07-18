@@ -252,6 +252,7 @@ class ReceiptScanner:
         category_menu = tk.OptionMenu(form_container, self.category_var, *categories)
         category_menu.config(
             font=('Arial', 10),
+            bg='white',
         )
 
 
