@@ -256,6 +256,7 @@ class ReceiptScanner:
             fg='#333',
             bd=1,
             relief=tk.SOLID,
+            cursor='hand2'
         )
 
 
