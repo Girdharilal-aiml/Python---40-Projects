@@ -305,5 +305,6 @@ class ReceiptScanner:
             height=8,
             wrap=tk.WORD,
             yscrollcommand=ocr_scroll.set,
+            state='disabled'
         )
 
