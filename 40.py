@@ -314,4 +314,5 @@ class ReceiptScanner:
         tk.Button(
             details_frame,
             text="💾 Save Receipt",
+            command=self.save_receipt,
         ).pack(pady=15)
