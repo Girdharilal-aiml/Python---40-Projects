@@ -246,6 +246,7 @@ class ReceiptScanner:
             anchor='w'
         ).pack(fill=tk.X, pady=(0, 2))
 
+        categories = ['Food', 'Shopping', 'Transport', 'Entertainment', 'Bills', 'Other']
         
 
 
