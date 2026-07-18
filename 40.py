@@ -273,4 +273,5 @@ class ReceiptScanner:
         self.notes_text = tk.Text(
             form_container,
             font=('Arial', 9),
+            bg='white',
         )
