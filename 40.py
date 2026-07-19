@@ -352,4 +352,5 @@ class ReceiptScanner:
             )
         if not PIL_AVAILABLE:
             messagebox.showwarning(
+                "Missing Library",
             )
