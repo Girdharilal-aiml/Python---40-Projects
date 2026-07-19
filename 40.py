@@ -356,4 +356,5 @@ class ReceiptScanner:
                 "Pillow is not installed.\n"
                 "Image preview will be disabled.\n\n"
                 "Optional install:\n"
+                "pip install pillow"
             )
