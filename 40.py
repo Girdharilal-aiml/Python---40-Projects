@@ -354,4 +354,5 @@ class ReceiptScanner:
             messagebox.showwarning(
                 "Missing Library",
                 "Pillow is not installed.\n"
+                "Image preview will be disabled.\n\n"
             )
