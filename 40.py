@@ -320,6 +320,7 @@ class ReceiptScanner:
             fg='white',
             bd=0,
             cursor='hand2',
+            padx=20,
         ).pack(pady=15)
 
 
