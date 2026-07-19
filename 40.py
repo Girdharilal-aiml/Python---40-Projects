@@ -353,4 +353,5 @@ class ReceiptScanner:
         if not PIL_AVAILABLE:
             messagebox.showwarning(
                 "Missing Library",
+                "Pillow is not installed.\n"
             )
