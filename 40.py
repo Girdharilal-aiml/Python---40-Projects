@@ -339,3 +339,5 @@ class ReceiptScanner:
         self.display_receipts()
         self.update_stats()
 
+        # Check for Tesseract
+        if not TESSERACT_AVAILABLE:
