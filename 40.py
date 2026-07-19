@@ -351,3 +351,5 @@ class ReceiptScanner:
                 "https://github.com/tesseract-ocr/tesseract"
             )
         if not PIL_AVAILABLE:
+            messagebox.showwarning(
+            )
