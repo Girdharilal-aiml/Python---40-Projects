@@ -333,5 +333,6 @@ class ReceiptScanner:
             fg='#666',
             anchor='w'
         )
+        self.status_label.pack(fill=tk.X, side=tk.BOTTOM)
 
 
