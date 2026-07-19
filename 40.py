@@ -327,6 +327,7 @@ class ReceiptScanner:
         # Status bar
         self.status_label = tk.Label(
             root,
+            text=f"{len(self.receipts)} receipts | Total: $0.00",
         )
 
 
