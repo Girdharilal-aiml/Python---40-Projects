@@ -347,4 +347,5 @@ class ReceiptScanner:
                 "OCR features will be disabled.\n\n"
                 "Optional install:\n"
                 "pip install pytesseract\n\n"
+                "Also install Tesseract-OCR from:\n"
             )
