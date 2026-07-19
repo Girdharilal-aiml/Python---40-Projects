@@ -341,3 +341,5 @@ class ReceiptScanner:
 
         # Check for Tesseract
         if not TESSERACT_AVAILABLE:
+            messagebox.showwarning(
+            )
