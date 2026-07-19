@@ -343,4 +343,5 @@ class ReceiptScanner:
         if not TESSERACT_AVAILABLE:
             messagebox.showwarning(
                 "Missing Library",
+                "pytesseract is not installed.\n"
             )
