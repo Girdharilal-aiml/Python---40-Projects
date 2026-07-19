@@ -350,3 +350,4 @@ class ReceiptScanner:
                 "Also install Tesseract-OCR from:\n"
                 "https://github.com/tesseract-ocr/tesseract"
             )
+        if not PIL_AVAILABLE:
