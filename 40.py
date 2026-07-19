@@ -329,6 +329,7 @@ class ReceiptScanner:
             root,
             text=f"{len(self.receipts)} receipts | Total: $0.00",
             font=('Arial', 9),
+            bg='#f5f5f5',
         )
 
 
