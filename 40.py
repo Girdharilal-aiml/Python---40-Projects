@@ -355,4 +355,5 @@ class ReceiptScanner:
                 "Missing Library",
                 "Pillow is not installed.\n"
                 "Image preview will be disabled.\n\n"
+                "Optional install:\n"
             )
