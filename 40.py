@@ -317,6 +317,7 @@ class ReceiptScanner:
             command=self.save_receipt,
             font=('Arial', 11, 'bold'),
             bg='#4CAF50',
+            fg='white',
         ).pack(pady=15)
 
 
