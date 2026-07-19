@@ -318,6 +318,7 @@ class ReceiptScanner:
             font=('Arial', 11, 'bold'),
             bg='#4CAF50',
             fg='white',
+            bd=0,
         ).pack(pady=15)
 
 
