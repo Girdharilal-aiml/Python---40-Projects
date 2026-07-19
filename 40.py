@@ -328,6 +328,7 @@ class ReceiptScanner:
         self.status_label = tk.Label(
             root,
             text=f"{len(self.receipts)} receipts | Total: $0.00",
+            font=('Arial', 9),
         )
 
 
