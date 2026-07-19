@@ -344,4 +344,5 @@ class ReceiptScanner:
             messagebox.showwarning(
                 "Missing Library",
                 "pytesseract is not installed.\n"
+                "OCR features will be disabled.\n\n"
             )
