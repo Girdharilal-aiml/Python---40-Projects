@@ -335,4 +335,6 @@ class ReceiptScanner:
         )
         self.status_label.pack(fill=tk.X, side=tk.BOTTOM)
 
+        # Display receipts
+        self.display_receipts()
 
