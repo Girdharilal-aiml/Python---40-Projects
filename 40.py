@@ -348,4 +348,5 @@ class ReceiptScanner:
                 "Optional install:\n"
                 "pip install pytesseract\n\n"
                 "Also install Tesseract-OCR from:\n"
+                "https://github.com/tesseract-ocr/tesseract"
             )
