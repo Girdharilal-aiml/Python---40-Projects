@@ -324,5 +324,8 @@ class ReceiptScanner:
             pady=10
         ).pack(pady=15)
 
+        # Status bar
+        self.status_label = tk.Label(
+        )
 
 
