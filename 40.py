@@ -326,6 +326,7 @@ class ReceiptScanner:
 
         # Status bar
         self.status_label = tk.Label(
+            root,
         )
 
 
