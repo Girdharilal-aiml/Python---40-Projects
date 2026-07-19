@@ -337,4 +337,5 @@ class ReceiptScanner:
 
         # Display receipts
         self.display_receipts()
+        self.update_stats()
 
