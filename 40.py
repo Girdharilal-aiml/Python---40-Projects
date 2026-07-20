@@ -390,3 +390,4 @@ class ReceiptScanner:
                                 key=lambda x: x.get('date', ''), 
                                 reverse=True)
         
+        for receipt in sorted_receipts:
