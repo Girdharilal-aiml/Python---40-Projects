@@ -358,3 +358,9 @@ class ReceiptScanner:
                 "Optional install:\n"
                 "pip install pillow"
             )
+
+    def _show_image_placeholder(self, text):
+
+
+        
+        
