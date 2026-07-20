@@ -378,6 +378,7 @@ class ReceiptScanner:
             except:
                 self.receipts = []
 
+    def save_receipts_data(self):
 
         
         
