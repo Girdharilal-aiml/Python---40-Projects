@@ -373,6 +373,7 @@ class ReceiptScanner:
     def load_receipts(self):
         if os.path.exists(self.receipts_file):
             try:
+                with open(self.receipts_file, 'r', encoding='utf-8') as f:
             except:
 
 
