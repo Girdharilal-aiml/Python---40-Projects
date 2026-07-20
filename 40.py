@@ -393,3 +393,4 @@ class ReceiptScanner:
         for receipt in sorted_receipts:
             store = receipt.get('store', 'Unknown')
             amount = receipt.get('amount', '0')
+            date = receipt.get('date', '')
