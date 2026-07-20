@@ -385,4 +385,7 @@ class ReceiptScanner:
     def display_receipts(self):
         self.receipts_listbox.delete(0, tk.END)
         
+        # Sort by date (newest first)
+        sorted_receipts = sorted(self.receipts, 
+                                reverse=True)
         
