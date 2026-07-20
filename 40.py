@@ -372,6 +372,8 @@ class ReceiptScanner:
 
     def load_receipts(self):
         if os.path.exists(self.receipts_file):
+            try:
+            except:
 
 
         
