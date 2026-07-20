@@ -365,6 +365,7 @@ class ReceiptScanner:
             self.image_canvas.winfo_width() // 2,
             self.image_canvas.winfo_height() // 2,
             text=text,
+            fill='#666',
         )
 
 
