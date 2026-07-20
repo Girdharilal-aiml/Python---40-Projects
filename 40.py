@@ -391,3 +391,4 @@ class ReceiptScanner:
                                 reverse=True)
         
         for receipt in sorted_receipts:
+            store = receipt.get('store', 'Unknown')
