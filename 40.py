@@ -367,6 +367,7 @@ class ReceiptScanner:
             text=text,
             fill='#666',
             font=('Arial', 11),
+            justify='center'
         )
 
 
