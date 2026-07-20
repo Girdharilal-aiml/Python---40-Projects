@@ -383,5 +383,6 @@ class ReceiptScanner:
             json.dump(self.receipts, f, indent=2, ensure_ascii=False)
 
     def display_receipts(self):
+        self.receipts_listbox.delete(0, tk.END)
         
         
