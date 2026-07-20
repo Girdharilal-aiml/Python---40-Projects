@@ -379,6 +379,7 @@ class ReceiptScanner:
                 self.receipts = []
 
     def save_receipts_data(self):
+        with open(self.receipts_file, 'w', encoding='utf-8') as f:
 
         
         
