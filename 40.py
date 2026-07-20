@@ -374,6 +374,7 @@ class ReceiptScanner:
         if os.path.exists(self.receipts_file):
             try:
                 with open(self.receipts_file, 'r', encoding='utf-8') as f:
+                    self.receipts = json.load(f)
             except:
 
 
