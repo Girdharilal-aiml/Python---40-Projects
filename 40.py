@@ -380,6 +380,7 @@ class ReceiptScanner:
 
     def save_receipts_data(self):
         with open(self.receipts_file, 'w', encoding='utf-8') as f:
+            json.dump(self.receipts, f, indent=2, ensure_ascii=False)
 
         
         
