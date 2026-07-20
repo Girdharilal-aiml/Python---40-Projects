@@ -370,6 +370,8 @@ class ReceiptScanner:
             justify='center'
         )
 
+    def load_receipts(self):
+
 
         
         
