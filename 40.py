@@ -361,6 +361,8 @@ class ReceiptScanner:
 
     def _show_image_placeholder(self, text):
         self.image_canvas.delete('all')
+        self.image_canvas.create_text(
+        )
 
 
         
