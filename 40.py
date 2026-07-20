@@ -363,6 +363,7 @@ class ReceiptScanner:
         self.image_canvas.delete('all')
         self.image_canvas.create_text(
             self.image_canvas.winfo_width() // 2,
+            self.image_canvas.winfo_height() // 2,
         )
 
 
