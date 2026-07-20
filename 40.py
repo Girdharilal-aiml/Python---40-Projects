@@ -387,5 +387,6 @@ class ReceiptScanner:
         
         # Sort by date (newest first)
         sorted_receipts = sorted(self.receipts, 
+                                key=lambda x: x.get('date', ''), 
                                 reverse=True)
         
