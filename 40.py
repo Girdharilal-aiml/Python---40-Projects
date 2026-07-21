@@ -436,5 +436,7 @@ class ReceiptScanner:
             if PIL_AVAILABLE:
                 image = Image.open(filepath)
 
+                # Resize for display
+                display_size = (400, 500)
 
  
