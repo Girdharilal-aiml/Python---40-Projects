@@ -414,6 +414,7 @@ class ReceiptScanner:
         filepath = filedialog.askopenfilename(
             title="Select Receipt Image",
             filetypes=[
+                ("Image files", "*.png *.jpg *.jpeg *.bmp"),
             ]
         )
 
