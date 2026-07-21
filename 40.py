@@ -397,6 +397,7 @@ class ReceiptScanner:
             self.receipts_listbox.insert(tk.END, f"{store} - ${amount} ({date})")
 
     def filter_receipts(self):
+        search = self.search_var.get().lower()
         
             
 
