@@ -401,6 +401,7 @@ class ReceiptScanner:
         self.receipts_listbox.delete(0, tk.END)
         
         for receipt in self.receipts:
+            searchable = f"{receipt.get('store', '')} {receipt.get('amount', '')} " \
             
 
 
