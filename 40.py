@@ -431,6 +431,8 @@ class ReceiptScanner:
         self.notes_text.delete('1.0', tk.END)
         self.category_var.set('Other')
 
+        # Load and display image
+        try:
 
 
  
