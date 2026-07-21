@@ -405,6 +405,7 @@ class ReceiptScanner:
                         f"{receipt.get('category', '')} {receipt.get('notes', '')}".lower()
             
             if search in searchable:
+                store = receipt.get('store', 'Unknown')
 
 
 
