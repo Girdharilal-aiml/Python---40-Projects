@@ -413,6 +413,8 @@ class ReceiptScanner:
     def scan_receipt(self):
         filepath = filedialog.askopenfilename(
             title="Select Receipt Image",
+            filetypes=[
+            ]
         )
 
 
