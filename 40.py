@@ -395,3 +395,14 @@ class ReceiptScanner:
             amount = receipt.get('amount', '0')
             date = receipt.get('date', '')
             self.receipts_listbox.insert(tk.END, f"{store} - ${amount} ({date})")
+
+    def filter_receipts(self):
+        
+            
+
+
+
+
+
+
+ 
