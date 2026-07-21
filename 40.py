@@ -400,6 +400,7 @@ class ReceiptScanner:
         search = self.search_var.get().lower()
         self.receipts_listbox.delete(0, tk.END)
         
+        for receipt in self.receipts:
             
 
 
