@@ -415,6 +415,7 @@ class ReceiptScanner:
             title="Select Receipt Image",
             filetypes=[
                 ("Image files", "*.png *.jpg *.jpeg *.bmp"),
+                ("All files", "*.*")
             ]
         )
 
