@@ -422,6 +422,8 @@ class ReceiptScanner:
         if not filepath:
             return
 
+        # Clear form
+        self.current_receipt = None
 
 
 
