@@ -406,6 +406,8 @@ class ReceiptScanner:
             
             if search in searchable:
                 store = receipt.get('store', 'Unknown')
+                amount = receipt.get('amount', '0')
+                date = receipt.get('date', '')
 
 
 
