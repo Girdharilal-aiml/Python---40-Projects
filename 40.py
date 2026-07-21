@@ -398,6 +398,7 @@ class ReceiptScanner:
 
     def filter_receipts(self):
         search = self.search_var.get().lower()
+        self.receipts_listbox.delete(0, tk.END)
         
             
 
