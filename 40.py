@@ -433,6 +433,7 @@ class ReceiptScanner:
 
         # Load and display image
         try:
+            if PIL_AVAILABLE:
 
 
  
