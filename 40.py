@@ -426,6 +426,7 @@ class ReceiptScanner:
         self.current_receipt = None
         self.store_entry.delete(0, tk.END)
         self.date_entry.delete(0, tk.END)
+        self.date_entry.insert(0, datetime.now().strftime("%Y-%m-%d"))
 
 
 
