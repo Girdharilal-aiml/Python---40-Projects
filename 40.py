@@ -438,5 +438,6 @@ class ReceiptScanner:
 
                 # Resize for display
                 display_size = (400, 500)
+                image.thumbnail(display_size, Image.Resampling.LANCZOS)
 
  
