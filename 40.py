@@ -419,6 +419,8 @@ class ReceiptScanner:
             ]
         )
 
+        if not filepath:
+            return
 
 
 
