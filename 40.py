@@ -411,6 +411,8 @@ class ReceiptScanner:
                 self.receipts_listbox.insert(tk.END, f"{store} - ${amount} ({date})")
 
     def scan_receipt(self):
+        filepath = filedialog.askopenfilename(
+        )
 
 
 
