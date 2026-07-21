@@ -428,6 +428,7 @@ class ReceiptScanner:
         self.date_entry.delete(0, tk.END)
         self.date_entry.insert(0, datetime.now().strftime("%Y-%m-%d"))
         self.amount_entry.delete(0, tk.END)
+        self.notes_text.delete('1.0', tk.END)
 
 
 
