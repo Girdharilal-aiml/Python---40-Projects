@@ -434,6 +434,7 @@ class ReceiptScanner:
         # Load and display image
         try:
             if PIL_AVAILABLE:
+                image = Image.open(filepath)
 
 
  
