@@ -470,5 +470,6 @@ class ReceiptScanner:
                 'scanned_date': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
 
+        except Exception as e:
 
 
