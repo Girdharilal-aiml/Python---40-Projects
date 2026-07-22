@@ -449,6 +449,9 @@ class ReceiptScanner:
                     anchor='center'
                 )
                 self.image_canvas.image = photo  # Keep reference
+            else:
+                self._show_image_placeholder(
+                )
 
 
 
