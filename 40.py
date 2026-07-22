@@ -464,5 +464,9 @@ class ReceiptScanner:
                 self.ocr_text.insert('1.0', "OCR not available in no-install mode.")
                 self.ocr_text.config(state='disabled')
 
+            # Create new receipt
+            self.current_receipt = {
+            }
+
 
 
