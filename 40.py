@@ -474,4 +474,6 @@ class ReceiptScanner:
             messagebox.showerror("Error", f"Failed to load image:\n{str(e)}")
 
     def perform_ocr(self, image_path):
+        try:
+            if not (TESSERACT_AVAILABLE and PIL_AVAILABLE):
 
