@@ -452,6 +452,7 @@ class ReceiptScanner:
             else:
                 self._show_image_placeholder(
                     "Image preview unavailable (Pillow not installed).\n"
+                    f"Selected file:\n{os.path.basename(filepath)}"
                 )
 
 
