@@ -478,3 +478,6 @@ class ReceiptScanner:
             if not (TESSERACT_AVAILABLE and PIL_AVAILABLE):
                 raise RuntimeError("OCR prerequisites not available")
 
+            # Extract text
+            text = pytesseract.image_to_string(Image.open(image_path))
+            
