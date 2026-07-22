@@ -458,5 +458,8 @@ class ReceiptScanner:
             # Perform OCR
             if TESSERACT_AVAILABLE and PIL_AVAILABLE:
                 self.perform_ocr(filepath)
+            else:
+                self.ocr_text.config(state='normal')
+
 
 
