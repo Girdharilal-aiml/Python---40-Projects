@@ -484,3 +484,4 @@ class ReceiptScanner:
             # Display OCR text
             self.ocr_text.config(state='normal')
             self.ocr_text.delete('1.0', tk.END)
+            self.ocr_text.insert('1.0', text)
