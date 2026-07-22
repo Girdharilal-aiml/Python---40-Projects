@@ -448,6 +448,7 @@ class ReceiptScanner:
                     image=photo,
                     anchor='center'
                 )
+                self.image_canvas.image = photo  # Keep reference
 
 
 
