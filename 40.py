@@ -467,6 +467,7 @@ class ReceiptScanner:
             # Create new receipt
             self.current_receipt = {
                 'image_path': filepath,
+                'scanned_date': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
 
 
