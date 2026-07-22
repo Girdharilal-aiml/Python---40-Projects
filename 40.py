@@ -442,6 +442,8 @@ class ReceiptScanner:
 
                 photo = ImageTk.PhotoImage(image)
                 self.image_canvas.delete('all')
+                self.image_canvas.create_image(
+                )
 
 
 
