@@ -473,4 +473,5 @@ class ReceiptScanner:
         except Exception as e:
             messagebox.showerror("Error", f"Failed to load image:\n{str(e)}")
 
+    def perform_ocr(self, image_path):
 
