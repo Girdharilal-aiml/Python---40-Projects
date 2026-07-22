@@ -441,6 +441,7 @@ class ReceiptScanner:
                 image.thumbnail(display_size, Image.Resampling.LANCZOS)
 
                 photo = ImageTk.PhotoImage(image)
+                self.image_canvas.delete('all')
 
 
 
