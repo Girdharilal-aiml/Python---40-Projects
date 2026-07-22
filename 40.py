@@ -466,6 +466,7 @@ class ReceiptScanner:
 
             # Create new receipt
             self.current_receipt = {
+                'image_path': filepath,
             }
 
 
