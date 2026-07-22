@@ -455,5 +455,7 @@ class ReceiptScanner:
                     f"Selected file:\n{os.path.basename(filepath)}"
                 )
 
+            # Perform OCR
+            if TESSERACT_AVAILABLE and PIL_AVAILABLE:
 
 
