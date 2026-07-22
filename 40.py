@@ -481,3 +481,5 @@ class ReceiptScanner:
             # Extract text
             text = pytesseract.image_to_string(Image.open(image_path))
             
+            # Display OCR text
+            self.ocr_text.config(state='normal')
