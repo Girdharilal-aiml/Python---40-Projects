@@ -451,6 +451,7 @@ class ReceiptScanner:
                 self.image_canvas.image = photo  # Keep reference
             else:
                 self._show_image_placeholder(
+                    "Image preview unavailable (Pillow not installed).\n"
                 )
 
 
