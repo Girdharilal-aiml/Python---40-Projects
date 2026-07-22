@@ -471,5 +471,6 @@ class ReceiptScanner:
             }
 
         except Exception as e:
+            messagebox.showerror("Error", f"Failed to load image:\n{str(e)}")
 
 
