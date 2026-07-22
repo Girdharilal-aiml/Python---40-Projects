@@ -476,4 +476,5 @@ class ReceiptScanner:
     def perform_ocr(self, image_path):
         try:
             if not (TESSERACT_AVAILABLE and PIL_AVAILABLE):
+                raise RuntimeError("OCR prerequisites not available")
 
