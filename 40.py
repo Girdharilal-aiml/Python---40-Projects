@@ -534,3 +534,4 @@ class ReceiptScanner:
         self.receipts.append(self.current_receipt)
         self.save_receipts_data()
         self.display_receipts()
+        self.update_stats()
