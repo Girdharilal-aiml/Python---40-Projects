@@ -513,5 +513,7 @@ class ReceiptScanner:
                 break
 
     def save_receipt(self):
+        if not self.current_receipt:
+            return
 
 
