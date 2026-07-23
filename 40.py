@@ -517,4 +517,6 @@ class ReceiptScanner:
             messagebox.showwarning("No Receipt", "Please scan a receipt first!")
             return
 
+        # Get form data
+        self.current_receipt['store'] = self.store_entry.get().strip()
 
