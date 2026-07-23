@@ -522,4 +522,5 @@ class ReceiptScanner:
         self.current_receipt['date'] = self.date_entry.get().strip()
         self.current_receipt['amount'] = self.amount_entry.get().strip()
         self.current_receipt['category'] = self.category_var.get()
+        self.current_receipt['notes'] = self.notes_text.get('1.0', 'end-1c').strip()
 
