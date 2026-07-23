@@ -496,6 +496,8 @@ class ReceiptScanner:
             self.ocr_text.insert('1.0', f"OCR failed: {str(e)}")
             self.ocr_text.config(state='disabled')
 
+    def auto_fill_from_ocr(self, text):
+        import re
         
         
 
