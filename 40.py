@@ -525,3 +525,6 @@ class ReceiptScanner:
         self.current_receipt['notes'] = self.notes_text.get('1.0', 'end-1c').strip()
         self.current_receipt['ocr_text'] = self.ocr_text.get('1.0', 'end-1c').strip()
 
+        # Validate
+        if not self.current_receipt['store']:
+            return
