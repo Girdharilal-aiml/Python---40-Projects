@@ -490,6 +490,7 @@ class ReceiptScanner:
             # Try to extract useful info
             self.auto_fill_from_ocr(text)
 
+        except Exception as e:
 
         
         
