@@ -512,5 +512,6 @@ class ReceiptScanner:
                 self.amount_entry.insert(0, match.group(1))
                 break
 
+    def save_receipt(self):
 
 
