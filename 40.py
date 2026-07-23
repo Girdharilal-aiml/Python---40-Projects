@@ -527,4 +527,5 @@ class ReceiptScanner:
 
         # Validate
         if not self.current_receipt['store']:
+            messagebox.showwarning("Missing Info", "Please enter store name!")
             return
