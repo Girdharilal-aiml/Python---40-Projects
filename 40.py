@@ -520,4 +520,5 @@ class ReceiptScanner:
         # Get form data
         self.current_receipt['store'] = self.store_entry.get().strip()
         self.current_receipt['date'] = self.date_entry.get().strip()
+        self.current_receipt['amount'] = self.amount_entry.get().strip()
 
