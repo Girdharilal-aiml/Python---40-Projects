@@ -486,3 +486,13 @@ class ReceiptScanner:
             self.ocr_text.delete('1.0', tk.END)
             self.ocr_text.insert('1.0', text)
             self.ocr_text.config(state='disabled')
+
+            # Try to extract useful info
+            self.auto_fill_from_ocr(text)
+
+
+        
+        
+
+
+
