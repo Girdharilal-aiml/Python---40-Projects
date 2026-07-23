@@ -501,6 +501,7 @@ class ReceiptScanner:
         
         # Try to find total amount (common patterns)
         amount_patterns = [
+            r'(?:total|amount|sum)[\s:]*\$?(\d+\.?\d*)',
         ]
         
 
