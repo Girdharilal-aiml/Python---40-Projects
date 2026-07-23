@@ -514,6 +514,7 @@ class ReceiptScanner:
 
     def save_receipt(self):
         if not self.current_receipt:
+            messagebox.showwarning("No Receipt", "Please scan a receipt first!")
             return
 
 
