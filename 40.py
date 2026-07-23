@@ -505,6 +505,7 @@ class ReceiptScanner:
             r'\$(\d+\.\d{2})',
         ]
         
+        for pattern in amount_patterns:
 
 
 
