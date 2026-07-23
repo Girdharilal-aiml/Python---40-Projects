@@ -499,6 +499,9 @@ class ReceiptScanner:
     def auto_fill_from_ocr(self, text):
         import re
         
+        # Try to find total amount (common patterns)
+        amount_patterns = [
+        ]
         
 
 
