@@ -507,6 +507,8 @@ class ReceiptScanner:
         
         for pattern in amount_patterns:
             match = re.search(pattern, text, re.IGNORECASE)
+            if match:
+                break
 
 
 
