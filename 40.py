@@ -491,6 +491,7 @@ class ReceiptScanner:
             self.auto_fill_from_ocr(text)
 
         except Exception as e:
+            self.ocr_text.config(state='normal')
 
         
         
