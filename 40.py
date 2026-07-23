@@ -509,6 +509,7 @@ class ReceiptScanner:
             match = re.search(pattern, text, re.IGNORECASE)
             if match:
                 self.amount_entry.delete(0, tk.END)
+                self.amount_entry.insert(0, match.group(1))
                 break
 
 
