@@ -508,6 +508,7 @@ class ReceiptScanner:
         for pattern in amount_patterns:
             match = re.search(pattern, text, re.IGNORECASE)
             if match:
+                self.amount_entry.delete(0, tk.END)
                 break
 
 
