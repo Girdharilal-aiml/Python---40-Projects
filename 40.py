@@ -567,6 +567,7 @@ class ReceiptScanner:
         self.store_entry.insert(0, receipt.get('store', ''))
         
         self.date_entry.delete(0, tk.END)
+        self.date_entry.insert(0, receipt.get('date', ''))
         
         
         
