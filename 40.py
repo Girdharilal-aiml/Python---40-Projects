@@ -558,6 +558,7 @@ class ReceiptScanner:
             sorted_receipts = sorted(self.receipts, 
                                     key=lambda x: x.get('date', ''), 
                                     reverse=True)
+            receipt = sorted_receipts[idx]
 
         
         
