@@ -572,6 +572,7 @@ class ReceiptScanner:
         self.amount_entry.delete(0, tk.END)
         self.amount_entry.insert(0, receipt.get('amount', ''))
         
+        self.category_var.set(receipt.get('category', 'Other'))
         
         
 
