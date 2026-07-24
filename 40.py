@@ -553,6 +553,7 @@ class ReceiptScanner:
                        if search in f"{r.get('store', '')} {r.get('amount', '')} "
                                    f"{r.get('category', '')} {r.get('notes', '')}".lower()]
             if idx < len(filtered):
+                receipt = filtered[idx]
         else:
 
         
