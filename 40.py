@@ -560,6 +560,8 @@ class ReceiptScanner:
                                     reverse=True)
             receipt = sorted_receipts[idx]
 
+        # Load receipt data
+        self.current_receipt = receipt
         
         
         
