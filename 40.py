@@ -541,6 +541,8 @@ class ReceiptScanner:
 
     def select_receipt(self, event):
         selection = self.receipts_listbox.curselection()
+        if not selection:
+            return
 
         
 
