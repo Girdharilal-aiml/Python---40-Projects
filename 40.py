@@ -537,6 +537,7 @@ class ReceiptScanner:
         self.update_stats()
 
         messagebox.showinfo("Saved", "Receipt saved successfully!")
+        self.current_receipt = None
 
 
         
