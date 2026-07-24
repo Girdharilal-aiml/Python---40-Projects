@@ -563,6 +563,7 @@ class ReceiptScanner:
         # Load receipt data
         self.current_receipt = receipt
         
+        self.store_entry.delete(0, tk.END)
         
         
         
