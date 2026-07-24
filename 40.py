@@ -578,5 +578,6 @@ class ReceiptScanner:
         self.notes_text.insert('1.0', receipt.get('notes', ''))
         
         self.ocr_text.config(state='normal')
+        self.ocr_text.delete('1.0', tk.END)
 
  
