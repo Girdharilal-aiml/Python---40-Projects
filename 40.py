@@ -539,6 +539,7 @@ class ReceiptScanner:
         messagebox.showinfo("Saved", "Receipt saved successfully!")
         self.current_receipt = None
 
+    def select_receipt(self, event):
 
         
 
