@@ -548,6 +548,7 @@ class ReceiptScanner:
         idx = selection[0]
         search = self.search_var.get().lower()
         
+        if search:
 
         
         
