@@ -555,6 +555,8 @@ class ReceiptScanner:
             if idx < len(filtered):
                 receipt = filtered[idx]
         else:
+            sorted_receipts = sorted(self.receipts, 
+                                    reverse=True)
 
         
         
