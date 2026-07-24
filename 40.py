@@ -575,6 +575,7 @@ class ReceiptScanner:
         self.category_var.set(receipt.get('category', 'Other'))
         
         self.notes_text.delete('1.0', tk.END)
+        self.notes_text.insert('1.0', receipt.get('notes', ''))
         
 
  
