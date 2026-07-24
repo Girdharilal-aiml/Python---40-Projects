@@ -564,6 +564,7 @@ class ReceiptScanner:
         self.current_receipt = receipt
         
         self.store_entry.delete(0, tk.END)
+        self.store_entry.insert(0, receipt.get('store', ''))
         
         
         
