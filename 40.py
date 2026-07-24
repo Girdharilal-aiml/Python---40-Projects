@@ -544,6 +544,8 @@ class ReceiptScanner:
         if not selection:
             return
 
+        # Get receipt
+        idx = selection[0]
         
 
         
