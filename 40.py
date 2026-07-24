@@ -549,6 +549,7 @@ class ReceiptScanner:
         search = self.search_var.get().lower()
         
         if search:
+            filtered = [r for r in self.receipts 
 
         
         
