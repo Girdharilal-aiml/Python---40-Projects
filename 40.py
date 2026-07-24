@@ -535,3 +535,17 @@ class ReceiptScanner:
         self.save_receipts_data()
         self.display_receipts()
         self.update_stats()
+
+        messagebox.showinfo("Saved", "Receipt saved successfully!")
+
+
+        
+
+        
+        
+        
+        
+        
+        
+
+ 
